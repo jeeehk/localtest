@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-board",
+  "version": "1.0.0",
+  "description": "Vanilla JavaScript Bulletin Board",
+  "scripts": {
+    "serve": "serve"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+} 

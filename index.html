@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Board</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>게시판</h1>
+        </header>
+
+        <div class="board-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성일</th>
+                    </tr>
+                </thead>
+                <tbody id="boardList">
+                    <!-- 게시글 목록 추가 영역 -->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- 페이지네이션 -->
+        <div class="pagination-container">
+            <nav>
+                <ul class="pagination" id="pagination">
+                    <li class="page-item">
+                        <button type="button" class="page-link" id="prevBtn">이전</button>
+                    </li>
+                    <li class="page-item">
+                        <button type="button" class="page-link" id="nextBtn">다음</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="board-write">
+            
+        </div>
+    </div>
+
+    <script src="js/board.js"></script>
+</body>
+</html> 
